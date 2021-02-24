@@ -48,7 +48,7 @@ class ComputerFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentComputerBinding.inflate(layoutInflater)
+        binding = FragmentComputerBinding.inflate(inflater,container,false)
         return binding.root
     }
 
